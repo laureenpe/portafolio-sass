@@ -3,14 +3,27 @@
 *{
     font-family: $body_font;
 }
-
+body{
+    background-color: #e5e5e5;
+    .section-one{
+        background-color: $white-background;
+    }
+    img{
+        @include photos-style();
+    }
+    
+}
 
 
     .divider{
     background-color: $divider;
 }
-
+//Navbar
 nav{
+    .navbar-fixed{
+           //background-color: transparent;
+
+    }
    background-color: transparent;
     ul a{
     color: $font-black;
@@ -20,14 +33,33 @@ nav{
     }
     
 }
+//Header
 header{
     
     img{
         @include photos-style();
-    
-
     }
 }
+/*VIDEO*/
+.who-are-we{
+background-image: url("../img/img_city.jpg");
+}
+/*PRODUCTS SECTION*/
+.product-section{
+   background-color: #f0f0f0;
 
-
+.card-product {
+    margin-top: 30px;
+}
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0,.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+}
 
