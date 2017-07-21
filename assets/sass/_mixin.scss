@@ -1,0 +1,12 @@
+@mixin excel(){
+    color: $color_text_p;
+    text-align: center;
+    line-height: 30px;
+}
+@mixin photos-style(){
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,CAAC;EACG,WAAW,ECHJ,qBAAqB",
-"sources": ["../sass/_bases.scss","../sass/_variables.scss"],
-"names": [],
-"file": "main.css"
-}

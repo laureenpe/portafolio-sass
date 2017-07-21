@@ -1,0 +1,33 @@
+//Estilo a nuestra página utilizando las variables que declaramos en nuestro archivo _variables.scss
+
+*{
+    font-family: $body_font;
+}
+
+
+
+    .divider{
+    background-color: $divider;
+}
+
+nav{
+   background-color: transparent;
+    ul a{
+    color: $font-black;
+    }
+    .brand-logo {
+        color: $font-black;
+    }
+    
+}
+header{
+    
+    img{
+        @include photos-style();
+    
+
+    }
+}
+
+
+
