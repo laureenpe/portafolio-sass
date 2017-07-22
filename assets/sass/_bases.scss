@@ -21,7 +21,7 @@ body{
 //Navbar
 nav{
     .navbar-fixed{
-           //background-color: transparent;
+           //background-color:transparent
 
     }
    background-color: transparent;
@@ -42,7 +42,7 @@ header{
 }
 /*VIDEO*/
 .who-are-we{
-background-image: url("../img/img_city.jpg");
+background-image: background-image-city;
 }
 /*PRODUCTS SECTION*/
 .product-section{
@@ -63,3 +63,87 @@ background-image: url("../img/img_city.jpg");
 }
 }
 
+/*CLIENTS*/
+.clients-section{
+    text-align: center;
+    background-color: $white-background;
+    img{
+        width: $clients-images;
+        overflow: hidden;
+        max-width: 140px;
+        max-height: 134px;
+    }
+}
+
+/*NEWSLETTER*/
+.newsletter{
+    background-image: url("../img/about.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*BLOG*/
+.blog{
+    img{
+        @include photos-style();
+    }
+}
+
+/*GET IN TOUCH*/
+.get-touch{
+    background-image: background-image-city;
+    
+}
+.card{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0,.87);
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.card .header-primary, .card .content-primary {
+    background: #e91e63;
+    }
+
+    .form-group {
+    padding-bottom: 7px;
+    position: relative;
+}
+/*FOOTER*/
+
+footer{
+    background-color:  #323437;
+    ul li a{
+    color: white;
+    position: relative;
+    padding: 5px ;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    
+   
+.footer-black a {
+    opacity: .86;
+    color: #fff;
+}
+.footer-big ul li a:hover {
+    text-decoration: none;
+}
+
+}
+.footer-menu{
+    display: flex;
+}
+.hestia-bottom-footer-content{
+         background-color:  #323437;
+    }
