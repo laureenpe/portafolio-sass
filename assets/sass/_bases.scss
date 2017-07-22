@@ -14,16 +14,13 @@ body{
     
 }
 
-
     .divider{
     background-color: $divider;
 }
 //Navbar
 nav{
-    .navbar-fixed{
-           //background-color:transparent
-
-    }
+    
+    
    background-color: transparent;
     ul a{
     color: $font-black;
@@ -33,6 +30,9 @@ nav{
     }
     
 }
+.waves-effect{
+        background-color:#e91e63; 
+    }
 //Header
 header{
     
@@ -42,11 +42,20 @@ header{
 }
 /*VIDEO*/
 .who-are-we{
-background-image: background-image-city;
+background-image: $background-image-city;
 }
 /*PRODUCTS SECTION*/
+
 .product-section{
    background-color: #f0f0f0;
+   h5{
+       color: $blue-font;
+       font-weight: bold;
+   }
+   a{
+      color: $blue-font;
+      font-weight: bold; 
+   }
 
 .card-product {
     margin-top: 30px;
@@ -62,7 +71,29 @@ background-image: background-image-city;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 }
+.content{
+      background-color: $white-background;
+  }
+  /*PORTAFOLIO*/
 
+  .portfolio-section{
+        h2{
+            color: $blue-font;
+            font-weight: bold;
+
+        }
+  }
+
+  /*TEAM*/
+  .meet-team{
+      h2,h6{
+            color: $blue-font;
+            font-weight: bold;
+
+        }
+        
+
+  }
 /*CLIENTS*/
 .clients-section{
     text-align: center;
@@ -73,6 +104,10 @@ background-image: background-image-city;
         max-width: 140px;
         max-height: 134px;
     }
+    h2 ,h6{
+        color: $blue-font;
+        font-weight: bold;
+    }
 }
 
 /*NEWSLETTER*/
@@ -82,6 +117,16 @@ background-image: background-image-city;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    padding: 25px;
+    a{
+        background-color: #e91e63;
+        
+    }
+    .news{
+        color: $font-white;
+    }
+   
 }
 
 /*BLOG*/
@@ -89,12 +134,45 @@ background-image: background-image-city;
     img{
         @include photos-style();
     }
+    h2, h6 {
+        color: $blue-font;
+        font-weight: bold;
+    }
+    
+    .blue-textt{
+        color: #00bcd4;
+    }
 }
 
 /*GET IN TOUCH*/
 .get-touch{
-    background-image: background-image-city;
+    background-image: $background-image-city;
+     h3 ,p{
+      color: $font-white;
+      padding: 25px;
+  }
+  h4{
+      color: $font-white;
+      font-weight: bold;
+  }
+  
+  small{
+    color: $font-white;
+    padding-left: 10px;
+
+  }
+  .content{
+      padding: 20px;
+      
+  }
+  a{
+      background-color: #e91e63;
+  }
     
+}
+.container-box{
+    width: 40%;
+    margin-left: 30%;
 }
 .card{
     display: inline-block;
@@ -120,6 +198,7 @@ background-image: background-image-city;
 
 footer{
     background-color:  #323437;
+    padding: 25px;
     ul li a{
     color: white;
     position: relative;
@@ -130,7 +209,15 @@ footer{
     text-decoration: none;
     text-transform: uppercase;
     }
-    
+    h6{
+        color: $font-white;
+    }
+    p{
+        color: #999;
+    }
+    a{
+        color: $font-white;
+    }
    
 .footer-black a {
     opacity: .86;
@@ -147,3 +234,5 @@ footer{
 .hestia-bottom-footer-content{
          background-color:  #323437;
     }
+
+ 
