@@ -11,6 +11,9 @@ body{
     img{
         @include photos-style();
     }
+    p{
+        color: $text-color;
+    }
     
 }
 
@@ -19,9 +22,7 @@ body{
 }
 //Navbar
 nav{
-    
-    
-   background-color: transparent;
+   background-color: white;
     ul a{
     color: $font-black;
     }
@@ -30,8 +31,11 @@ nav{
     }
     
 }
+.navbar-fixed{
+    background-color: transparent;
+}
 .waves-effect{
-        background-color:#e91e63; 
+        background-color:$fuchia;
     }
 //Header
 header{
@@ -43,6 +47,10 @@ header{
 /*VIDEO*/
 .who-are-we{
 background-image: $background-image-city;
+padding: 25px;
+p{
+    color: white
+}
 }
 /*PRODUCTS SECTION*/
 
@@ -55,6 +63,9 @@ background-image: $background-image-city;
    a{
       color: $blue-font;
       font-weight: bold; 
+   }
+   h6{
+       color:$fuchia;
    }
 
 .card-product {
@@ -89,7 +100,18 @@ background-image: $background-image-city;
       h2,h6{
             color: $blue-font;
             font-weight: bold;
-
+        }
+        .facebook{
+            color: #3b5998;
+        }
+        .google{
+            color: #dd4b39;
+        }
+        .twitter{
+            color: #55acee;
+        }
+        .linkedin{
+            color: #0976b4;;
         }
         
 
@@ -120,7 +142,7 @@ background-image: $background-image-city;
     
     padding: 25px;
     a{
-        background-color: #e91e63;
+        background-color: $fuchia;
         
     }
     .news{
@@ -198,7 +220,7 @@ background-image: $background-image-city;
 
 footer{
     background-color:  #323437;
-    padding: 25px;
+    padding: 35px;
     ul li a{
     color: white;
     position: relative;
