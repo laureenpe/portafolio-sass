@@ -7,6 +7,15 @@ body{
     background-color: #e5e5e5;
     .section-one{
         background-color: $white-background;
+        .reorder{
+            color:$fuchia;
+        }
+        .subject{
+           color: #00bcd4;
+        }
+        .toc{
+            color: #4caf50;
+        }
     }
     img{
         @include photos-style();
@@ -29,7 +38,6 @@ nav{
     .brand-logo {
         color: $navbar-font;
         margin-left: 23%;
-        font-size: 11px;
     }
     .dropdown-content li > a, span{
         color: $font-black;
@@ -53,7 +61,7 @@ header{
 /*VIDEO*/
 .who-are-we{
 background-image: $background-image-city;
-padding: 25px;
+padding-left: 20px;
 p{
     color: white
 }
@@ -103,6 +111,7 @@ p{
 
   /*TEAM*/
   .meet-team{
+      padding-left: 15px;
       h2,h6{
             color: $blue-font;
             font-weight: bold;

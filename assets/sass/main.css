@@ -6779,6 +6779,12 @@ body {
   background-color: #e5e5e5; }
   body .section-one {
     background-color: white; }
+    body .section-one .reorder {
+      color: #e91e63; }
+    body .section-one .subject {
+      color: #00bcd4; }
+    body .section-one .toc {
+      color: #4caf50; }
   body img {
     width: 100%;
     background-position: center bottom;
@@ -6796,8 +6802,7 @@ nav {
     color: #5e5e5e; }
   nav .brand-logo {
     color: #5e5e5e;
-    margin-left: 23%;
-    font-size: 11px; }
+    margin-left: 23%; }
   nav .dropdown-content li > a, nav span {
     color: black;
     font-size: 11px; }
@@ -6817,7 +6822,7 @@ header img {
 /*VIDEO*/
 .who-are-we {
   background-image: url("../img/img_city.jpg");
-  padding: 25px; }
+  padding-left: 20px; }
   .who-are-we p {
     color: white; }
 
@@ -6853,17 +6858,19 @@ header img {
   font-weight: bold; }
 
 /*TEAM*/
-.meet-team h2, .meet-team h6 {
-  color: #3c4858;
-  font-weight: bold; }
-.meet-team .facebook {
-  color: #3b5998; }
-.meet-team .google {
-  color: #dd4b39; }
-.meet-team .twitter {
-  color: #55acee; }
-.meet-team .linkedin {
-  color: #0976b4; }
+.meet-team {
+  padding-left: 15px; }
+  .meet-team h2, .meet-team h6 {
+    color: #3c4858;
+    font-weight: bold; }
+  .meet-team .facebook {
+    color: #3b5998; }
+  .meet-team .google {
+    color: #dd4b39; }
+  .meet-team .twitter {
+    color: #55acee; }
+  .meet-team .linkedin {
+    color: #0976b4; }
 
 /*CLIENTS*/
 .clients-section {
