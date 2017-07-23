@@ -24,10 +24,16 @@ body{
 nav{
    background-color: white;
     ul a{
-    color: $font-black;
+    color: $navbar-font;
     }
     .brand-logo {
+        color: $navbar-font;
+        margin-left: 23%;
+        font-size: 11px;
+    }
+    .dropdown-content li > a, span{
         color: $font-black;
+        font-size: 11px;
     }
     
 }

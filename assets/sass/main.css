@@ -6793,9 +6793,14 @@ body {
 nav {
   background-color: white; }
   nav ul a {
-    color: black; }
+    color: #5e5e5e; }
   nav .brand-logo {
-    color: black; }
+    color: #5e5e5e;
+    margin-left: 23%;
+    font-size: 11px; }
+  nav .dropdown-content li > a, nav span {
+    color: black;
+    font-size: 11px; }
 
 .navbar-fixed {
   background-color: transparent; }
